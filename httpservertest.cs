@@ -21,7 +21,7 @@ namespace WorkHttp
 
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void httpservertest_Load(object sender, EventArgs e)
         {
            hs = new Http.HttpServer(new Http.Server(1432));
            hs.Handlers.Clear();
